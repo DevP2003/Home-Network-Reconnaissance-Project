@@ -21,9 +21,9 @@ This project simulates a real-world internal reconnaissance and vulnerability as
 ## Devices Scanned 
 
 | Device         | IP Address      | Open Ports    | Key Services   | OS Detected
-|----------------|-----------------|---------------|----------------|-------------
-| MacBook Pro    |                 |               |                |
-| iPhone 15 Plus |                 |               |                |            | Xbox One       |                 |               |                |
-| HP Printer     |                 |               |                |
-| AT&T DSL Router|                 |               |                |
+|----------------|-----------------|-----------------|----------------|-----------
+| MacBook Pro    | 192.168.X.X     |22,53,5000,7000  |                |
+| iPhone 15 Plus | 192.168.X.X     |62078            |                |                | Xbox One       | 192.168.X.X     |2869             |                |
+| HP Printer     | 192.168.X.X     |80,443,631,8080,9100|             |
+| AT&T DSL Router| 192.168.X.X     | 53,80,443       |                |
 ----------------------------------------------------------------------------------
