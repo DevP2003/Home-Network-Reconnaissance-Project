@@ -22,8 +22,8 @@ This project simulates a real-world internal reconnaissance and vulnerability as
 
 | Device         | IP Address      | Open Ports    | Key Services   | OS Detected
 |----------------|-----------------|-----------------|----------------|-----------
-| MacBook Pro    | 192.168.X.X     |22,53,5000,7000  |                |
-| iPhone 15 Plus | 192.168.X.X     |62078            |                |                | Xbox One       | 192.168.X.X     |2869             |                |
-| HP Printer     | 192.168.X.X     |80,443,631,8080,9100|             |
-| AT&T DSL Router| 192.168.X.X     | 53,80,443       |                |
+| MacBook Pro    | 192.168.X.X     |22, 53, 5000, 7000  | SSH, DNS, Airplay               |macOS (no exact match)
+| iPhone 15 Plus | 192.168.X.X     |62078            | tcpwrapped sync               |IOS (not fingerprinted)                | Xbox One       | 192.168.X.X     |2869             |UPnP (IIS httpd)                |Windows 11 / Server 2008 (guess)
+| HP Printer     | 192.168.X.X     |80, 443, 631, 8080, 9100|IPP, nginx, JetDirect | Embedded Linux (likely)             |
+| AT&T DSL Router| 192.168.X.X     | 53, 80, 443       |DNSMasq, lighttpd                |Embedded linux (Arris)
 ----------------------------------------------------------------------------------
